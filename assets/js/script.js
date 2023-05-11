@@ -50,30 +50,3 @@ function getWeatherData(city) {
         })
     })
 };
-
-// let getWeatherStart = async (city) => {
-//     let weatherStartData = weatherStart + '&q=' + city;
-//     let response = await fetch(weatherStartData);
-//     if (response.statusCode !== 200) {
-//         alert("not a city");
-//         return;
-//     }
-//     let weather = await response.json();
-//     return weather;
-// }
-
-// form.addEventListener('submit', async (e) => {
-//     e.preventDefault();
-//     let weather = await getWeatherStart(search.value);
-//     if (!weather) {
-//         return;
-//     }
-//     currentWeather(weather);
-// });
-
-// let currentWeather = (data) => {
-//     city.textContent = data.name + ', ' + data.sys.country;
-// };
-
-// let dayOfWeek = () => {
-//     new
