@@ -53,9 +53,6 @@ function getWeatherData(city) {
             printWeather(data, city);
         })
     })
-<<<<<<< HEAD
-};
-=======
 };
 
 // prints the weather data onto the page
@@ -209,4 +206,3 @@ function historyButton(event) {
 
 search.addEventListener('submit', searchCity);
 historyBtn.addEventListener('click', historyButton);
->>>>>>> fc2f4a3 (comments)
